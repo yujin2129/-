@@ -1,0 +1,36 @@
+.stopwatch_container{
+    max-width: 800px;
+    margin: 0 auto;
+}
+h3{
+    font-size: 50px;
+    margin-top: 0;
+}
+.time_container{
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto 50px;
+}
+span{
+    font-size: 50px;
+}
+.button_container{
+    max-width: 400px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+button{
+    cursor: pointer;
+    height: 100px;
+    width: 100px;
+    font-size: 15px;
+    border-radius: 50px;
+}
+button:hover{
+    opacity: 0.7;
+}
+button:disabled{
+    pointer-events: none;
+}
