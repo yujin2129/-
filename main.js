@@ -39,10 +39,7 @@ $(document).ready(function(){
         document.querySelector(".resetbutton").disabled = true;
 
         clearInterval(eventtimer);
-        timehour = 0;
-        timeminute = 0;
-        timesecond = 0;
-        timemillisecond = 0;
+        timecount = 0;
         $(".time_hours,.time_minutes,.time_seconds,.time_millisecond").text("00");
     });
 });
